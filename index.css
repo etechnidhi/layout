@@ -42,7 +42,7 @@ body{
 }
 .right{
     float: right;
-    width: 30%;
+    width: 31%;
     padding-left: 10px;
 }
 .posts{
@@ -120,39 +120,44 @@ hr{
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif; 
     padding-left: 13px;
-    padding-bottom: 1%;
+    padding-bottom: 6%;
     width: 87%;
     margin-bottom: 20px;
     /* display: inline; */
 }
 .example{
     display: inline;
-    width: 100%;
     padding-left: 8px;
+    margin: 0 auto;
+    margin-left:10px;
+    width: 100%;
+}
+.example2{
+    margin-left: 13.5px;
 }
 form.example input[type=text] {
-    padding: 1.5px;
-    font-size: 16px;
+    padding: 2px;
+    font-size: 17px;
     border: 1px solid #E0E0E0 ;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     border-right: none;
     float: left;
     background: white;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-top-left-radius: 4px;;     
+    border-bottom-left-radius: 4px;
 }
 
 form.example button {
     float: left;
     width: 13.5%;
-    padding: 2px;
-    background: #C8C8C8 ;
+    padding: 3.5px;
+    background: whitesmoke ;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    color: white;
+    color: black;
     font-size: 17px;
     border: 1px solid #E0E0E0;
-    border-left: none;
+    /* border-left: none; */
     cursor: pointer;
 }
 
