@@ -5,6 +5,8 @@ body{
     background-color: #292421;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .margin{
     width: 87%;    
@@ -16,14 +18,16 @@ body{
     text-align: left;
     text-decoration: none;
     padding: 10px;    
-    margin-top: 3px;
+    /* margin-top: 3px; */
 }
 .mainheading{
-    font-size: 16px;
+    font-size: 16.5px;
+    /* padding-right: 15%; */
 }
 .subheading{
     font-size: 13px;
     float: left;
+    padding-left: 10px;
     padding-top: 2px;
 }
 .container{
@@ -100,8 +104,9 @@ hr{
 .para{
     margin-top: 10px;
     /* margin-bottom: 5px; */
-    font-size: 15.5px;
+    font-size: 14px;
     line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .line3{
     clear: both;
@@ -116,23 +121,25 @@ hr{
     font-family: Arial, Helvetica, sans-serif; 
     padding-left: 13px;
     padding-bottom: 1%;
-    width: 80%;
+    width: 87%;
     margin-bottom: 20px;
     /* display: inline; */
 }
 .example{
     display: inline;
-    padding-left: 10px;
+    width: 100%;
+    padding-left: 8px;
 }
 form.example input[type=text] {
     padding: 1.5px;
     font-size: 16px;
     border: 1px solid #E0E0E0 ;
     border-radius: 6px;
+    border-right: none;
     float: left;
-    /* width: 80%; */
-    background: #f1f1f1;
-    /* border-right: none; */
+    background: white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 form.example button {
@@ -140,6 +147,8 @@ form.example button {
     width: 13.5%;
     padding: 2px;
     background: #C8C8C8 ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     color: white;
     font-size: 17px;
     border: 1px solid #E0E0E0;
@@ -165,7 +174,7 @@ form.example::after {
     font-family: Arial, Helvetica, sans-serif; 
     padding-left: 13px;
     padding-bottom: 1%;
-    width: 80%;
+    width: 87%;
     margin-bottom: 10px;
     /* display: inline; */
 }
@@ -179,8 +188,9 @@ table{
     padding-bottom: 15px;
 }
 .thirdlorem{
-    font-size: 11.5px;
+    font-size: 12px;
     line-height: 16px;
-    padding-right: 18px;
+    padding-right: 20px;
     padding-bottom: 18px;
+    padding-left: 10px; 
 }
