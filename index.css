@@ -119,18 +119,10 @@ hr{
     border: 1px solid #E0E0E0;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif; 
-    padding-left: 13px;
-    padding-bottom: 6%;
+    /* padding-bottom: 6%; */
     width: 87%;
     margin-bottom: 20px;
     /* display: inline; */
-}
-.example{
-    display: inline;
-    padding-left: 8px;
-    margin: 0 auto;
-    margin-left:10px;
-    width: 100%;
 }
 .example2{
     margin-left: 13.5px;
@@ -139,10 +131,9 @@ form.example input[type=text] {
     padding: 2px;
     font-size: 17px;
     border: 1px solid #E0E0E0 ;
-    /* border-radius: 6px; */
     border-right: none;
+    width: 82%;
     float: left;
-    background: white;
     border-top-left-radius: 4px;;     
     border-bottom-left-radius: 4px;
 }
@@ -176,8 +167,8 @@ form.example::after {
     border-radius: 6px;
     border: 1px solid #E0E0E0;
     font-size: 17px;
+    padding-left: 5px;
     font-family: Arial, Helvetica, sans-serif; 
-    padding-left: 13px;
     padding-bottom: 1%;
     width: 87%;
     margin-bottom: 10px;
