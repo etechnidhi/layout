@@ -5,6 +5,8 @@ body{
     background-color: #292421;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .margin{
     width: 87%;    
@@ -16,14 +18,16 @@ body{
     text-align: left;
     text-decoration: none;
     padding: 10px;    
-    margin-top: 3px;
+    /* margin-top: 3px; */
 }
 .mainheading{
-    font-size: 16px;
+    font-size: 16.5px;
+    /* padding-right: 15%; */
 }
 .subheading{
     font-size: 13px;
     float: left;
+    padding-left: 10px;
     padding-top: 2px;
 }
 .container{
@@ -33,11 +37,13 @@ body{
 }
 .left{
     float: left;
-    width: 70%;
+    width: 68%;
+    margin-bottom: 10px;
 }
 .right{
     float: right;
-    width: 30%
+    width: 31%;
+    padding-left: 10px;
 }
 .posts{
     margin-top: 15px;
@@ -61,8 +67,8 @@ body{
     font-size: 13px;
 }
 .footer{
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 hr{
     opacity: 0.2;
@@ -98,12 +104,98 @@ hr{
 .para{
     margin-top: 10px;
     /* margin-bottom: 5px; */
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .line3{
     clear: both;
+    padding-top: 2%;
 }
 .one{
-    background-color: 
+    background-color:#F0F0F0 ;
+    padding-top: 30px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 13px;
+    padding-bottom: 6%;
+    width: 87%;
+    margin-bottom: 20px;
+    /* display: inline; */
+}
+.example{
+    display: inline;
+    padding-left: 8px;
+    margin: 0 auto;
+    margin-left:10px;
+    width: 100%;
+}
+.example2{
+    margin-left: 13.5px;
+}
+form.example input[type=text] {
+    padding: 2px;
+    font-size: 17px;
+    border: 1px solid #E0E0E0 ;
+    /* border-radius: 6px; */
+    border-right: none;
+    float: left;
+    background: white;
+    border-top-left-radius: 4px;;     
+    border-bottom-left-radius: 4px;
+}
+
+form.example button {
+    float: left;
+    width: 13.5%;
+    padding: 3.5px;
+    background: whitesmoke ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: black;
+    font-size: 17px;
+    border: 1px solid #E0E0E0;
+    /* border-left: none; */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.two{
+    background-color:#F0F0F0 ;
+    padding-top: 30px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 13px;
+    padding-bottom: 1%;
+    width: 87%;
+    margin-bottom: 10px;
+    /* display: inline; */
+}
+table{
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.table{
+    color: #0b7dda;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.thirdlorem{
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+    padding-left: 10px; 
 }
